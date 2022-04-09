@@ -44,8 +44,8 @@ The project is built using mvn and you will need 3.6+
 
 ## How to run it
 
-`mvn clean install` to install and run tests
-`mvn spring-boot:run` to run on port 8080
+`./mvnw clean install` to install and run tests
+`./mvnw spring-boot:run` to run on port 8080
 
 ## What could be improved
 - The error handling isnt very good, this is also driven by the fact that the error handling on the original
